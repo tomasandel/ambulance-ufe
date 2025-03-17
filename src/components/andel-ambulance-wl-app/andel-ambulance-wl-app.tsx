@@ -58,8 +58,7 @@ export class AndelAmbulanceWlApp {
             oneditor-closed={ () => navigate("./list")} >
           </andel-ambulance-wl-editor>
         :<andel-ambulance-wl-list  ambulance-id={this.ambulanceId} api-base={this.apiBase}
-
-         onentry-clicked={ (ev: CustomEvent<string>)=> navigate("./entry/" + ev.detail) } >
+            onentry-clicked={ (ev: CustomEvent<string>)=> navigate("./entry/" + ev.detail) } >
         </andel-ambulance-wl-list>
         }
 
