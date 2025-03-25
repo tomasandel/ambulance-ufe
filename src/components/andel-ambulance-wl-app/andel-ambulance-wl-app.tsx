@@ -37,6 +37,8 @@ export class AndelAmbulanceWlApp {
   }
 
   render() {
+    console.log("andel-ambulance-wl-app.render() - path: %s", this.relativePath);
+
     let element = "list"
     let entryId = "@new"
 
